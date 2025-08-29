@@ -10,7 +10,8 @@ Each day I’ll push scripts, configs, and mini-projects as I grow my DevOps + S
 
 Run with:
 ```bash
-./system_info.sh
+chmod +x system_info.sh
+sudo ./system_info.sh
 ```
 ## 📅 Day 2
 ### 1️⃣ process_mgmt.sh
@@ -24,7 +25,7 @@ Run with:
 **Run:**
 ```bash
 chmod +x process_mgmt.sh
-./process_mgmt.sh
+sudo ./process_mgmt.sh
 ```
 
 ### 2️⃣ user_mgmt.sh
@@ -41,4 +42,13 @@ chmod +x process_mgmt.sh
 ```bash
 chmod +x user_mgmt.sh
 sudo ./user_mgmt.sh
+```
+## 📅 Day 3
+- **System Monitor Script** (`system_monitor.sh`)
+- Checks Key Resources like: CPU usage, Memory usage, Disk usage, Uptime  
+
+Run with:
+```bash
+chmod +x system_monitor.sh
+sudo ./system_monitor.sh
 ```
