@@ -52,3 +52,6 @@ Run with:
 chmod +x system_monitor.sh
 sudo ./system_monitor.sh
 ```
+
+## 📅 Day 4
+- practiced **file perns & ACLs**
