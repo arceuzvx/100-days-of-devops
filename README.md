@@ -54,4 +54,4 @@ sudo ./system_monitor.sh
 ```
 
 ## 📅 Day 4
-- practiced **file perns & ACLs**
+- practiced **file perms & ACLs**
