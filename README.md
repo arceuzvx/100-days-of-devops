@@ -55,3 +55,12 @@ sudo ./system_monitor.sh
 
 ## 📅 Day 4
 - practiced **file perms & ACLs**
+
+## 📅 Day 5
+- automated log cleanups (`log_cleanup.sh`)
+
+Run with:
+```bash
+chmod +x log_cleanup.sh
+./log_cleanup.sh
+```
