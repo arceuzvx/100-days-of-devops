@@ -64,3 +64,12 @@ Run with:
 chmod +x log_cleanup.sh
 ./log_cleanup.sh
 ```
+
+## 📅 Day 6
+- learnt how to export logs (`log_export.sh`)
+
+Run with:
+```bash
+chmod +x log_export.sh
+./log_export.sh
+```
