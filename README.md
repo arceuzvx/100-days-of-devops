@@ -73,3 +73,10 @@ Run with:
 chmod +x log_export.sh
 ./log_export.sh
 ```
+## 📅 Day 7
+
+- learnt about systemd timers for modern task scheduling
+
+## 📅 Day 8
+
+- learnt Linux Networking basics
