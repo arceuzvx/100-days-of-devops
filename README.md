@@ -80,3 +80,11 @@ chmod +x log_export.sh
 ## 📅 Day 8
 
 - learnt Linux Networking basics
+
+## 📅 Day 9 
+
+- learnt Linux Firewall Basics with UFW
+
+## 📅 Day 10
+
+- learnt log rotation
