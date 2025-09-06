@@ -88,3 +88,10 @@ chmod +x log_export.sh
 ## 📅 Day 10
 
 - learnt log rotation
+
+# 📅 Day 11
+- wrote a script to update & upgrade outdated packages and prints it in logs
+```bash
+chmod +x pkg_update.sh
+./pkg_update.sh
+```
