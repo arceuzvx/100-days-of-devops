@@ -1,18 +1,21 @@
-# Day 23 - Terraform Basics (100 Days of DevOps)
+# Day 23 - Terraform Basics: Variables & Outputs (100 Days of DevOps)
 
-Today I kicked off my journey with **Terraform**, an Infrastructure as Code (IaC) tool that allows you to define and provision infrastructure using declarative configuration files.
+Today I leveled up my Terraform journey by learning how to use **variables and outputs** to make configurations more reusable and dynamic.  
 
 ---
 
 ## 🔹 What I Did
 - Installed and configured Terraform on Windows  
 - Verified installation with `terraform --version`  
-- Created my first configuration file: **`main.tf`**  
-- Used the **local provider** to generate a `hello.txt` file via Terraform  
-- Learned the core Terraform workflow:  
-  1. `terraform init` – Initialize the project  
-  2. `terraform validate` – Validate configuration syntax  
-  3. `terraform plan` – Preview changes  
-  4. `terraform apply` – Apply changes (provision resources)  
-  5. `terraform destroy` – Destroy resources  
-
+- Created three Terraform configuration files:  
+  - **`main.tf`** – defined a resource using the local provider  
+  - **`variables.tf`** – stored input variables to customize configuration  
+  - **`outputs.tf`** – exposed output values for visibility  
+- Learned and practiced the Terraform workflow:  
+  1. `terraform init` – Initialize the working directory  
+  2. `terraform validate` – Validate syntax and configuration  
+  3. `terraform plan` – Preview what Terraform will create  
+  4. `terraform apply` – Apply changes and generate resources  
+  5. `terraform destroy` – Tear down resources  
+- Successfully generated a file (`day23.txt`) with content provided via variables  
+- Displayed the **file path** as an output in the CLI  
